@@ -1,4 +1,4 @@
-# 📁 Progetto Meccanico CubeSat 1U (Portfolio Ingegneristico)
+# 📁 Progetto Meccanico CubeSat 1U
 
 Repository ufficiale contenente l'intero sviluppo ingegneristico, la modellazione CAD 3D, le messe in tavola tecniche per la produzione, le analisi strutturali e termiche (FEA) di una struttura **CubeSat 1U** progettata in conformità agli standard internazionali **CubeSat Design Specification (CDS)** per il rilascio tramite dispenser P-POD.
 
@@ -56,7 +56,7 @@ Il progetto è stato sottoposto a rigorose simulazioni agli elementi finiti (FEA
 *(Visualizzazione fotorealistica generata tramite SOLIDWORKS Visualize con finiture in alluminio naturale/anodizzato e sfondo tecnico neutro antracite)*
 
 <p align="center">
-  <img src="Renders/cubesat_assembly_render.png" alt="Render CubeSat 1U" width="700"/>
+  <img src="Renders/CubeSat.png" alt="Render CubeSat 1U" width="700"/>
 </p>
 
 ---

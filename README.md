@@ -46,6 +46,10 @@ Il progetto è stato sottoposto a rigorose simulazioni agli elementi finiti (FEA
 2. **Verifica Termo-Strutturale:**
    * Analisi del comportamento termico sui piani di contatto tra le piastre e la struttura portante, verificando la corretta dissipazione del flusso termico ed escludendo deformazioni termiche tali da compromettere lo scorrimento all'interno del dispenser.
 
+3. **Analisi Modale (Frequenze Naturali):**
+   * Estrazione delle prime frequenze proprie della struttura per evitare fenomeni di risonanza con lo spettro di risposta in frequenza (SRS) del vettore di lancio.
+   * La prima frequenza di risonanza è risultata ampiamente superiore al requisito minimo imposto dai 100 Hz di soglia tipica dei lanciatori commerciali.
+
 ---
 
 ## 🖼️ Anteprima Visiva del Progetto
@@ -56,4 +60,4 @@ Il progetto è stato sottoposto a rigorose simulazioni agli elementi finiti (FEA
 </p>
 
 ---
-*Progetto sviluppato come parte di un portfolio di ingegneria aerospaziale avanzata.*
+*Progetto sviluppato come parte di un portfolio di ingegneria aerospaziale.*

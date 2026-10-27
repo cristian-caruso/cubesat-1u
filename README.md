@@ -1,6 +1,6 @@
 # 📁 Progetto Meccanico CubeSat 1U
 
-Repository ufficiale contenente l'intero sviluppo ingegneristico, la modellazione CAD 3D, le messe in tavola tecniche per la produzione, le analisi strutturali e termiche (FEA) di una struttura **CubeSat 1U** progettata in conformità agli standard internazionali **CubeSat Design Specification (CDS)** per il rilascio tramite dispenser P-POD.
+Repository ufficiale contenente l'intero sviluppo ingegneristico, la modellazione CAD 3D, le messe in tavola tecniche per la produzione, le analisi strutturali e termiche di una struttura **CubeSat 1U** progettata in conformità agli standard internazionali **CubeSat Design Specification (CDS)** per il rilascio tramite dispenser P-POD.
 
 ---
 
@@ -30,16 +30,16 @@ Repository ufficiale contenente l'intero sviluppo ingegneristico, la modellazion
 * **Piastre Faccia (Superiore, Inferiore e Laterali):** Sviluppate con alleggerimenti geometrici per ottimizzare il bilancio di massa senza compromettere la rigidità torsionale complessiva.
 * **Configurazioni e Viste Esplose:** Gestione avanzata tramite ConfigurationManager in SolidWorks per la generazione di viste esplose multi-sequenza, utilizzate per la stesura della distinta base e della bollatura automatica nelle messe in tavola.
 
-### 2. Documentazione Tecnica 2D (Manufacturing)
-* Generazione di tavole 2D conformi agli standard industriali, complete di riquadro delle revisioni, tabella dei materiali (BOM), indicazioni sui trattamenti superficiali e richiami geometrici basati sulle norme ISO 2768-m.
+### 2. Documentazione Tecnica 2D
+* Generazione di tavole 2D conformi agli standard industriali, complete di riquadro delle revisioni, tabella dei materiali, indicazioni sui trattamenti superficiali e tolleranze dimensionali.
 
 ---
 
-## 🔬 Validazione FEM & Analisi Strutturale (FEA)
+## 🔬 Validazione FEM & Analisi Strutturale
 
-Il progetto è stato sottoposto a rigorose simulazioni agli elementi finiti (FEA) per certificarne la resistenza meccanica e l'affidabilità in ambiente operativo:
+Il progetto è stato sottoposto a rigorose simulazioni agli elementi finiti per certificarne la resistenza meccanica e l'affidabilità in ambiente operativo:
 
-1. **Analisi di Carico Statico (Condizione di Lancio - 10g):**
+1. **Analisi di Carico Statico:**
    * **Vincoli e Applicazione:** Applicazione di un'accelerazione di picco pari a 10g lungo l'asse principale del satellite, simulando le sollecitazioni estreme imposte dal vettore di lancio.
    * **Risultati:** Le tensioni di von Mises massime registrate sull'Alluminio 6061-T6 risultano ampiamente inferiori al limite di snervamento del materiale, garantendo un ampio margine di sicurezza strutturale (*Safety Factor* elevato).
    * **Gestione delle Singolarità:** Ottimizzazione dei raccordi geometrici interni per eliminare le concentrazioni di sforzo critiche individuate nelle prime iterazioni numeriche.

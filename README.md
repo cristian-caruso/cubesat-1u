@@ -15,8 +15,9 @@ Repository ufficiale contenente l'intero sviluppo ingegneristico, la modellazion
 
 ```text
 ├── CAD/                  # Modelli nativi SolidWorks
-├── Reports/              # Report completi di validazione FEM strutturale e termica
 ├── Renders/              # Render fotorealistici
+├── Reports/              # Report completi di validazione FEM strutturale e termica
+├── Tavole/               # Messe in tavola in PDF
 └── README.md             # Documentazione tecnica del progetto
 ```
 
@@ -52,7 +53,7 @@ Il progetto è stato sottoposto a rigorose simulazioni agli elementi finiti (FEA
 
 ---
 
-## 🖼️ Anteprima Visiva del Progetto
+## 🖼️ Rendering
 *(Visualizzazione fotorealistica generata tramite SOLIDWORKS Visualize con finiture in alluminio naturale/anodizzato e sfondo tecnico neutro antracite)*
 
 <p align="center">
